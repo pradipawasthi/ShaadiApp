@@ -4,13 +4,12 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.pradip.shaadi.dataModel.CandidateDetailsDataModel
 import com.pradip.shaadi.dataModel.ResultsItemDataModel
 import com.pradip.weatherapp.R
 import com.pradip.weatherapp.databinding.ItemForecastviewBinding
 
 
-class ForecastDaysAdapter : RecyclerView.Adapter<ForecastDaysAdapter.ViewHolder>() {
+class CandidateDetailsAdapter : RecyclerView.Adapter<CandidateDetailsAdapter.ViewHolder>() {
 
     private var items: List<ResultsItemDataModel>? = null
 

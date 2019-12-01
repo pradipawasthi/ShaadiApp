@@ -6,7 +6,9 @@
     <data>
 
         <import type="android.view.View" />
-
+        <variable
+            name="resultsItem"
+            type="com.pradip.shaadi.dataModel.ResultsItemDataModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -26,7 +28,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Friday" />
+            tools:text="Friday"
+            android:text="@{resultsItem.name}"
+            />
 
         <TextView
             android:id="@+id/itemTextViewValue"
@@ -39,7 +43,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="33 C" />
+            tools:text="33 C"
+            android:text="@{resultsItem.id}"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

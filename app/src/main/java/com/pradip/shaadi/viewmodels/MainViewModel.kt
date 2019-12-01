@@ -2,7 +2,7 @@ package com.pradip.shaadi.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.pradip.domain.interactor.GetCandidateDetailsUseCase
+import com.doubtnutapp.domain.similarVideo.interactor.GetCandidateDetailsUseCase
 import com.pradip.domain.entities.CandidateDetailsEntity
 import com.pradip.shaadi.dataModel.CandidateDetailsDataModel
 import com.pradip.shaadi.mapper.CandidateDetailsDataMapper

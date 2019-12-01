@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var viewModelFactory: ViewModelProvider.Factory
 
     private lateinit var viewModel: MainViewModel
-    private lateinit var forecastDaysAdapter: ForecastDaysAdapter
+    private lateinit var forecastDaysAdapter: CandidateDetailsAdapter
 
 
     companion object {
@@ -133,7 +133,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpRecyclerView() {
-        forecastDaysAdapter = ForecastDaysAdapter()
+        forecastDaysAdapter = CandidateDetailsAdapter()
         forecastItem.adapter = forecastDaysAdapter
         forecastItem.addItemDecoration(DividerItemDecoration(this, LinearLayoutManager.VERTICAL))
 //
