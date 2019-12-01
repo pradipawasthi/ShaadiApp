@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="currentTempTextFontSize">96dp</dimen>
+    <dimen name="loicationTextFontSize">36dp</dimen>
+    <dimen name="forecastTextFontSize">16dp</dimen>
+    <dimen name="marginLocationBottom">62dp</dimen>
+    <dimen name="errorTextFontSize">54dp</dimen>
+
+
+</resources>

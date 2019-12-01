@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22000000</color>
+    <color name="colorPrimaryDark">#22000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorBackground">#F5F6F7</color>
+
+    <color name="colorCurrentTemperature">#2A2A2A</color>
+    <color name="colorLocation">#556799</color>
+
+    <color name="colorForecast">#2A2A2A</color>
+
+    <color name="topbar">#22000000</color>
+
+    <color name="colorErrorMsg">#FFFFFF</color>
+
+    <color name="colorErrorMsgBackGround">#E85959</color>
+
+    <color name="colorRetryBg">#4A4A4A</color>
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="permission_denied_explanation">
+        Permission was denied, but is needed for core functionality.
+    </string>
+    <string name="permission_rationale">
+        Location permission is needed for core functionality
+    </string>
+    <string name="settings">Settings</string>
+    <string name="error_msg">Something went wrong at our end !</string>
+    <string name="retry">Retry</string>
+
+    <string name="string_current_temp" translatable="false">%1$s\u00B0</string>
+
+    <string name="string_forecast" translatable="false">%1$s C</string>
+    <string name="check_your_internet">No network detected, check your internet and try again !!</string>
+
+
+</resources>
